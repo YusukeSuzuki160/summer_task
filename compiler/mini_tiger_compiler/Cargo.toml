@@ -6,8 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [[bin]]
-name = "lexer"
-path = "src/lexer.rs"
+name = "lr1"
+path = "src/LR_1/mod.rs"
 [dependencies]
 anyhow = "1.0.59"
 thiserror = "1.0.31"

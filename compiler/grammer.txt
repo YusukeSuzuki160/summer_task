@@ -1,5 +1,5 @@
 e (expression) ::= n (integer) | s(string) | x(variable) | x := e | e op e | e_1; e_2 | if e_1 then e_2 [else e_3] | f(e_1, ... , e_n) | let d in e
-d (declaration) ::= x: t = e | f (x_1: t_1, ... , x_n: t_n) : t = e
+d (declaration) ::= var x: t = e | fun f (x_1: t_1, ... , x_n: t_n) : t = e
 t (type) ::= b | (b_1, ... , b_n) -> b
 b (basic type) ::= unit | int | string
 op := {+, *, =, <, <=}
